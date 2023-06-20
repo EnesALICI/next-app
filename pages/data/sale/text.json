@@ -1,0 +1,14 @@
+{
+        "catName": "Cat name is: ",
+        "catBreed": "Cat breed is: ",
+        "catIntroduction": "Cat introduction is: ",
+        "button":  "buy it",
+        "dontBuy": "don't buy a cat, just adopt a cat",
+        "uName": "Your Name on card",
+        "cardNumber" : "Card Number",
+        "expiryDate" : "Expiry Date",
+        "cvv" : "CVV",
+        "address":"Address",
+        "sendButton": "send"
+        
+}

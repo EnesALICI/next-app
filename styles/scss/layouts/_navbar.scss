@@ -1,0 +1,44 @@
+@import "../helper/var";
+
+.navbar {
+    width: 100%;
+    background-color: $pink;
+    font-size: $phone;  
+    h1{
+        margin-bottom: 20px;
+    }
+    ul li{
+        display: block; 
+        border-bottom: 2px solid black;
+        margin-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: $lightPink;
+    }
+    
+}
+
+
+
+@media (min-width: 700px) {
+    .navbar {
+       width: 100%;
+       font-size: $computer;
+       text-align: center;
+       align-items: center;
+       
+       ul li{
+        display: inline;
+        border: none;
+        margin-left: 10px;
+        margin-right: 10px;
+
+       }
+    }
+}

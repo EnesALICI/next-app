@@ -1,0 +1,43 @@
+@import "../helper/var";
+
+
+
+.aboutContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+
+.aboutBox{
+    width: 300px;
+    background-color: $pink;
+    border-radius: 40px;
+    text-align: center;
+    font-size: $phone;
+    border: 2px solid white;
+    
+    h1{
+        margin-bottom: 10px;
+    }
+
+    p{
+        margin: 20px;
+        line-height: 27px;
+    }
+
+    img{
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+}
+
+
+@media (min-width: 700px) {
+    .aboutBox{
+        width: 700px;
+    }
+}

@@ -1,0 +1,23 @@
+@import "../helper/var";
+
+
+.footer{
+
+width: 100%;
+font-size: $phone;
+background-color: $pink;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+}
+
+
+
+
+@media (min-width: 700px) {
+    .footer{
+        font-size: $computer;
+
+    }
+}

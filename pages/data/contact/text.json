@@ -1,0 +1,10 @@
+{
+    "title"      : "İletişim sayfası",
+    "uName"      : "Your Name",
+    "email"      : "Your Mail",
+    "message"       : "Your Message",
+    "send"           : "Send",
+    "error"         : "form is empty",
+    "successful"    : "successful"
+    
+}

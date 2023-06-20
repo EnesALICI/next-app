@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "photo": "/images/BritishShorthair.jpg",
+        "catName": "Tyler",
+        "breed": "British Shorthair",
+        "introduction": "cat"
+    },
+    {
+        "id": "2",
+        "photo": "/images/Siamese.jpg",
+        "catName": "kawaii",
+        "breed": "Siamese",
+        "introduction": "cat"
+    },
+    {
+        "id": "3",
+        "photo": "/images/Himalayan.jpg",
+        "catName": "Sleepy",
+        "breed": "Himalayan",
+        "introduction": "cat"
+    },
+    {
+        "id": "4",
+        "photo": "/images/black.jpg",
+        "catName": "devil",
+        "breed": "black",
+        "introduction": "cat"
+    }
+]

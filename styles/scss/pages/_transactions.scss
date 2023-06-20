@@ -1,0 +1,63 @@
+@import "../helper/var";
+
+a{
+    font-size: $phone
+}
+.tranContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: $phone;
+
+    input{
+        padding: 5px;
+        font-size: $phone;
+        
+    }
+}
+
+.tranBox{
+    width: 300px;
+    margin-top: 20px;
+    background-color: $pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    button{
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
+
+.dontbuy{
+    margin-top: 60px;
+    font-size: $phone;
+    text-align: center;
+
+}
+
+@media (min-width: 700px) {
+    .tranBox{
+        width: 500px;
+        font-size: $computer;
+
+        input{
+            padding: 10px;
+            font-size: $computer;
+            
+        }
+    }
+    a{
+        font-size: $computer;
+    }
+    .dontbuy{
+        font-size: $computer;
+    }
+    
+
+}
